@@ -4,11 +4,14 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "semantic-ui"
+  ],
+  "author": "Takuya Matsuyama <hi@craftz.dog>",
+  "license": "MIT",
   "dependencies": {
     "semantic-ui": "^2.2.10"
   }
