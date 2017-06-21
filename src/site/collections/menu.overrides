@@ -1,3 +1,18 @@
 /*******************************
          Site Overrides
 *******************************/
+.ui.menu.transparent {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.ui.menu.transparent .item:before {
+  display: none;
+}
+
+@media only screen and (min-width: @tabletBreakpoint) {
+  .ui.menu.transparent:not(.secondary):not(.text):not(.tabular):not(.borderless) > .container > .item:not(.right):not(.borderless):first-child {
+    border: none;
+  }
+}

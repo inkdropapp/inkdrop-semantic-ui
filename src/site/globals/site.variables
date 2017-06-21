@@ -2,3 +2,5 @@
      User Global Variables
 *******************************/
 @primaryColor        : #3d7aed;
+@fontName            : 'Roboto';
+@googleFontSizes   : '400,300,100,500,700';
