@@ -16,3 +16,18 @@
     border: none;
   }
 }
+
+.ui.secondary.pointing.large.menu {
+  border-width: 1px;
+  margin-bottom: 2em;
+
+  .item {
+    padding: 1.5em;
+    font-weight: 300;
+  }
+  .active.item {
+    font-weight: normal;
+    margin-bottom: -1px;
+    border-width: 1px;
+  }
+}
