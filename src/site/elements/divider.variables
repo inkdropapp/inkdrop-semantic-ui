@@ -1,3 +1,5 @@
 /*******************************
     User Variable Overrides
 *******************************/
+@shadowColor:    #f4f6f7;
+@highlightColor: #f4f6f7;
