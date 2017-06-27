@@ -2,10 +2,10 @@
          Site Overrides
 *******************************/
 
-div.right.aligned {
+.right.aligned {
   text-align: right;
 }
 
-div.center.aligned {
+.center.aligned {
   text-align: center;
 }

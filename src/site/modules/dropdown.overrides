@@ -1,3 +1,28 @@
 /*******************************
         User Overrides
 *******************************/
+
+.x-expanded.ui.selection.dropdown {
+
+  @media only screen and (max-width : @largestMobileScreen) {
+    .menu {
+      max-height: none;
+    }
+  }
+  @media only screen and (min-width: @tabletBreakpoint) {
+    .menu {
+      max-height: none;
+    }
+  }
+  @media only screen and (min-width: @computerBreakpoint) {
+    .menu {
+      max-height: none;
+    }
+  }
+  @media only screen and (min-width: @widescreenMonitorBreakpoint) {
+    .menu {
+      max-height: none;
+    }
+  }
+
+}
