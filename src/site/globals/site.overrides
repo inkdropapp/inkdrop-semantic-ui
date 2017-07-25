@@ -9,3 +9,11 @@
 .center.aligned {
   text-align: center;
 }
+
+.right.floated.text {
+  float: right;
+}
+
+.left.floated.text {
+  float: left;
+}
