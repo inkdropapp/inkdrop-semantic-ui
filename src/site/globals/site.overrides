@@ -2,6 +2,10 @@
          Site Overrides
 *******************************/
 
+.left.aligned {
+  text-align: right;
+}
+
 .right.aligned {
   text-align: right;
 }
