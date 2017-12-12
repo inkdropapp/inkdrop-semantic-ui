@@ -3,7 +3,7 @@
 *******************************/
 
 .left.aligned {
-  text-align: right;
+  text-align: left;
 }
 
 .right.aligned {
