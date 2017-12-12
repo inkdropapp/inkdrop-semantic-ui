@@ -12,7 +12,7 @@
   ],
   "author": "Takuya Matsuyama <hi@craftz.dog>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "semantic-ui": "^2.2.10"
   }
 }
