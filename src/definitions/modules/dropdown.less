@@ -181,7 +181,7 @@
   margin: @menuDividerMargin;
 }
 
-.ui.dropdown .menu > .input {
+.ui.dropdown.dropdown .menu > .input {
   width: auto;
   display: flex;
   margin: @menuInputMargin;
@@ -924,6 +924,18 @@ select.ui.dropdown {
   background-color: @errorItemActiveBackground;
 }
 
+
+/*--------------------
+        Clear
+----------------------*/
+
+.ui.dropdown > .clear.dropdown.icon {
+  opacity: @clearableIconOpacity;
+  transition: opacity @defaultDuration @defaultEasing;
+}
+.ui.dropdown > .clear.dropdown.icon:hover {
+  opacity: @clearableIconActiveOpacity;
+}
 
 
 /*--------------------
