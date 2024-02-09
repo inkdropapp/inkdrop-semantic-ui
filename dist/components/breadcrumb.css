@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Breadcrumb
+ * # Semantic UI - Breadcrumb
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -38,16 +38,16 @@
   opacity: 0.7;
   margin: 0em 0.21428571rem 0em;
   font-size: 0.92857143em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.5);
   vertical-align: baseline;
 }
 
 /* Link */
 .ui.breadcrumb a {
-  color: #4183C4;
+  color: #3d7aed;
 }
 .ui.breadcrumb a:hover {
-  color: #1e70bf;
+  color: #5892ff;
 }
 
 /* Icon Divider */
@@ -78,7 +78,7 @@
 *******************************/
 
 .ui.breadcrumb .active.section {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 

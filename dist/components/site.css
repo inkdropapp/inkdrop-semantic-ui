@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Site
+ * # Semantic UI - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -14,6 +14,7 @@
 *******************************/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700&subset=latin');
+@import url("https://use.typekit.net/atg0zvr.css");
 html,
 body {
   height: 100%;
@@ -28,9 +29,9 @@ body {
   min-width: 320px;
   background: #ecf2fd;
   font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #DDDDDD;
   font-smoothing: antialiased;
 }
 
@@ -44,10 +45,10 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'M PLUS Rounded 1c', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'proxima-soft', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.28571429em;
-  margin: calc(2rem -  0.14285714em ) 0em 1rem;
-  font-weight: bold;
+  margin: calc(2rem - 0.1428571428571429em) 0em 1rem;
+  font-weight: 600;
   padding: 0em;
 }
 h1 {
@@ -102,11 +103,11 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4183C4;
+  color: #3d7aed;
   text-decoration: none;
 }
 a:hover {
-  color: #1e70bf;
+  color: #5892ff;
   text-decoration: none;
 }
 
@@ -124,33 +125,37 @@ a:hover {
 
 /* Site */
 ::-webkit-selection {
-  background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  background-color: #331d00;
+  color: #DDDDDD;
 }
 ::-moz-selection {
-  background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  background-color: #331d00;
+  color: #DDDDDD;
 }
 ::selection {
-  background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  background-color: #331d00;
+  color: #DDDDDD;
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
-  background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  background-color: #9b9b9b;
+  color: #DDDDDD;
 }
 textarea::-moz-selection,
 input::-moz-selection {
-  background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  background-color: #9b9b9b;
+  color: #DDDDDD;
+}
+textarea::-moz-selection, input::-moz-selection {
+  background-color: #9b9b9b;
+  color: #DDDDDD;
 }
 textarea::selection,
 input::selection {
-  background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  background-color: #9b9b9b;
+  color: #DDDDDD;
 }
 
 /* Force Simple Scrollbars */
@@ -223,7 +228,7 @@ a:focus {
   outline: none;
 }
 .ui.button.gradation {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'proxima-soft', sans-serif;
   font-size: 16px;
   color: white;
   background: #3d7aed;

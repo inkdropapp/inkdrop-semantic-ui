@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Header
+ * # Semantic UI - Header
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -17,13 +17,13 @@
 /* Standard */
 .ui.header {
   border: none;
-  margin: calc(2rem -  0.14285714em ) 0em 1rem;
+  margin: calc(2rem - 0.1428571428571429em) 0em 1rem;
   padding: 0em 0em;
-  font-family: 'M PLUS Rounded 1c', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-family: 'proxima-soft', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 600;
   line-height: 1.28571429em;
   text-transform: none;
-  color: rgba(0, 0, 0, 0.87);
+  color: #DDDDDD;
 }
 .ui.header:first-child {
   margin-top: -0.14285714em;
@@ -43,7 +43,7 @@
   margin: 0em;
   font-size: 1rem;
   line-height: 1.2em;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /*--------------
@@ -208,7 +208,7 @@ h5.ui.header .sub.header {
 .ui.sub.header {
   padding: 0em;
   margin-bottom: 0.14285714rem;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 0.85714286em;
   text-transform: uppercase;
   color: '';
@@ -295,23 +295,23 @@ h5.ui.header .sub.header {
 --------------------*/
 
 .ui.inverted.header {
-  color: #FFFFFF;
+  color: #2E3235;
 }
 .ui.inverted.header .sub.header {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 .ui.inverted.attached.header {
-  background: #545454 -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.05)));
-  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #545454 -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.05)));
+  background: #545454 -webkit-linear-gradient(transparent, rgba(255, 255, 255, 0.05));
+  background: #545454 linear-gradient(transparent, rgba(255, 255, 255, 0.05));
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: transparent;
 }
 .ui.inverted.block.header {
-  background: #545454 -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.05)));
-  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #545454 -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.05)));
+  background: #545454 -webkit-linear-gradient(transparent, rgba(255, 255, 255, 0.05));
+  background: #545454 linear-gradient(transparent, rgba(255, 255, 255, 0.05));
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -347,13 +347,13 @@ a.ui.inverted.red.header:hover {
 /*--- Orange ---*/
 
 .ui.orange.header {
-  color: #F2711C !important;
+  color: #C06D36 !important;
 }
 a.ui.orange.header:hover {
-  color: #f26202 !important;
+  color: #b2602a !important;
 }
 .ui.orange.dividing.header {
-  border-bottom: 2px solid #F2711C;
+  border-bottom: 2px solid #C06D36;
 }
 
 /* Inverted */
@@ -617,7 +617,7 @@ a.ui.inverted.grey.header:hover {
 
 .ui.dividing.header {
   padding-bottom: 0.21428571rem;
-  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  border-bottom: 1px solid rgba(24, 26, 28, 0.45);
 }
 .ui.dividing.header .sub.header {
   padding-bottom: 0.21428571rem;
@@ -626,7 +626,7 @@ a.ui.inverted.grey.header:hover {
   margin-bottom: 0em;
 }
 .ui.inverted.dividing.header {
-  border-bottom-color: rgba(255, 255, 255, 0.1);
+  border-bottom-color: rgba(0, 0, 0, 0.1);
 }
 
 /*-------------------
@@ -634,11 +634,11 @@ a.ui.inverted.grey.header:hover {
 --------------------*/
 
 .ui.block.header {
-  background: #F3F4F5;
+  background: #4B5257;
   padding: 0.78571429rem 1rem;
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 1px solid #D4D4D5;
+  border: 1px solid #1B1C1E;
   border-radius: 0.28571429rem;
 }
 .ui.tiny.block.header {
@@ -662,16 +662,16 @@ a.ui.inverted.grey.header:hover {
 --------------------*/
 
 .ui.attached.header {
-  background: #FFFFFF;
+  background: #2E3235;
   padding: 0.78571429rem 1rem;
   margin-left: -1px;
   margin-right: -1px;
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 1px solid #D4D4D5;
+  border: 1px solid #1B1C1E;
 }
 .ui.attached.block.header {
-  background: #F3F4F5;
+  background: #4B5257;
 }
 .ui.attached:not(.top):not(.bottom).header {
   margin-top: 0em;

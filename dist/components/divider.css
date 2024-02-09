@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Divider
+ * # Semantic UI - Divider
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -17,10 +17,10 @@
   margin: 1rem 0rem;
   line-height: 1;
   height: 0em;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(255, 255, 255, 0.95);
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -191,13 +191,13 @@
 .ui.divider.inverted,
 .ui.vertical.inverted.divider,
 .ui.horizontal.inverted.divider {
-  color: #FFFFFF;
+  color: #2E3235;
 }
 .ui.divider.inverted,
 .ui.divider.inverted:after,
 .ui.divider.inverted:before {
-  border-top-color: rgba(34, 36, 38, 0.15) !important;
-  border-left-color: rgba(34, 36, 38, 0.15) !important;
+  border-top-color: rgba(24, 26, 28, 0.45) !important;
+  border-left-color: rgba(24, 26, 28, 0.45) !important;
   border-bottom-color: rgba(255, 255, 255, 0.15) !important;
   border-right-color: rgba(255, 255, 255, 0.15) !important;
 }

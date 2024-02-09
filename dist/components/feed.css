@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Feed
+ * # Semantic UI - Feed
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -118,7 +118,7 @@
   font-weight: normal;
   font-size: 1em;
   font-style: normal;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /*--------------
@@ -128,8 +128,8 @@
 .ui.feed > .event > .content .summary {
   margin: 0em;
   font-size: 1em;
-  font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  font-weight: 600;
+  color: #DDDDDD;
 }
 
 /* Summary Image */
@@ -148,7 +148,7 @@
 
 .ui.feed > .event > .content .user {
   display: inline-block;
-  font-weight: bold;
+  font-weight: 600;
   margin-right: 0em;
   vertical-align: baseline;
 }
@@ -173,7 +173,7 @@
   font-style: normal;
   margin: 0em 0em 0em 0.5em;
   padding: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /*--------------
@@ -184,7 +184,7 @@
   margin: 0.5em 0em 0em;
   background: none;
   padding: 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #DDDDDD;
 }
 
 /* Images */
@@ -264,7 +264,7 @@
 .ui.feed > .event > .content .meta a:hover,
 .ui.feed > .event > .content .meta a:hover .icon,
 .ui.feed > .event > .content .meta > .icon:hover {
-  color: rgba(0, 0, 0, 0.95);
+  color: rgba(255, 255, 255, 0.95);
 }
 
 
