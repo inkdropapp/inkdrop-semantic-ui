@@ -31,7 +31,7 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
-  color: #DDDDDD;
+  color: rgba(0, 0, 0, 0.87);
   font-smoothing: antialiased;
 }
 
@@ -103,11 +103,11 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #3d7aed;
+  color: #4183C4;
   text-decoration: none;
 }
 a:hover {
-  color: #5892ff;
+  color: #1e70bf;
   text-decoration: none;
 }
 
@@ -125,37 +125,37 @@ a:hover {
 
 /* Site */
 ::-webkit-selection {
-  background-color: #331d00;
-  color: #DDDDDD;
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.87);
 }
 ::-moz-selection {
-  background-color: #331d00;
-  color: #DDDDDD;
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.87);
 }
 ::selection {
-  background-color: #331d00;
-  color: #DDDDDD;
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
-  background-color: #9b9b9b;
-  color: #DDDDDD;
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
 }
 textarea::-moz-selection,
 input::-moz-selection {
-  background-color: #9b9b9b;
-  color: #DDDDDD;
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
 }
 textarea::-moz-selection, input::-moz-selection {
-  background-color: #9b9b9b;
-  color: #DDDDDD;
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
 }
 textarea::selection,
 input::selection {
-  background-color: #9b9b9b;
-  color: #DDDDDD;
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /* Force Simple Scrollbars */

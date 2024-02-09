@@ -103,7 +103,7 @@
   font-size: 4rem;
   font-weight: normal;
   line-height: 1em;
-  color: #F9FAFB;
+  color: #1B1C1D;
   text-transform: uppercase;
   text-align: center;
 }
@@ -117,7 +117,7 @@
   font-family: 'proxima-soft', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 600;
-  color: #DDDDDD;
+  color: rgba(0, 0, 0, 0.87);
   text-transform: uppercase;
   text-align: center;
 }
@@ -322,7 +322,7 @@
 .ui.orange.statistics .statistic > .value,
 .ui.statistics .orange.statistic > .value,
 .ui.orange.statistic > .value {
-  color: #C06D36;
+  color: #F2711C;
 }
 .ui.yellow.statistics .statistic > .value,
 .ui.statistics .yellow.statistic > .value,
@@ -381,11 +381,11 @@
 
 .ui.inverted.statistics .statistic > .value,
 .ui.inverted.statistic .value {
-  color: #2E3235;
+  color: #FFFFFF;
 }
 .ui.inverted.statistics .statistic > .label,
 .ui.inverted.statistic .label {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.red.statistics .statistic > .value,
 .ui.statistics .inverted.red.statistic > .value,

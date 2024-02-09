@@ -33,7 +33,7 @@
   padding: 0.5em 0em;
   font-family: 'proxima-soft', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
-  color: #DDDDDD;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /* Content */
@@ -126,17 +126,17 @@
 .ui.styled.accordion,
 .ui.styled.accordion .accordion {
   border-radius: 0.28571429rem;
-  background: #2E3235;
-  -webkit-box-shadow: 0px 1px 2px 0 rgba(24, 26, 28, 0.45), 0px 0px 0px 1px rgba(24, 26, 28, 0.45);
-          box-shadow: 0px 1px 2px 0 rgba(24, 26, 28, 0.45), 0px 0px 0px 1px rgba(24, 26, 28, 0.45);
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), 0px 0px 0px 1px rgba(34, 36, 38, 0.15);
+          box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), 0px 0px 0px 1px rgba(34, 36, 38, 0.15);
 }
 .ui.styled.accordion .title,
 .ui.styled.accordion .accordion .title {
   margin: 0em;
   padding: 0.75em 1em;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.4);
   font-weight: 600;
-  border-top: 1px solid rgba(24, 26, 28, 0.45);
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-transition: background 0.1s ease, color 0.1s ease;
   transition: background 0.1s ease, color 0.1s ease;
 }
@@ -162,22 +162,22 @@
 .ui.styled.accordion .accordion .title:hover,
 .ui.styled.accordion .accordion .active.title {
   background: transparent;
-  color: #DDDDDD;
+  color: rgba(0, 0, 0, 0.87);
 }
 .ui.styled.accordion .accordion .title:hover,
 .ui.styled.accordion .accordion .active.title {
   background: transparent;
-  color: #DDDDDD;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /* Active */
 .ui.styled.accordion .active.title {
   background: transparent;
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(0, 0, 0, 0.95);
 }
 .ui.styled.accordion .accordion .active.title {
   background: transparent;
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(0, 0, 0, 0.95);
 }
 
 
@@ -215,7 +215,7 @@
 ---------------*/
 
 .ui.inverted.accordion .title:not(.ui) {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 

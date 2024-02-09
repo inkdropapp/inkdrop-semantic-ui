@@ -163,7 +163,7 @@ ol.ui.list ol li,
   margin: 0em;
   font-family: 'proxima-soft', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: 600;
-  color: #DDDDDD;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /* Description */
@@ -183,28 +183,28 @@ ol.ui.list ol li,
 .ui.list .list > a.item,
 .ui.list > a.item {
   cursor: pointer;
-  color: #3d7aed;
+  color: #4183C4;
 }
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #5892ff;
+  color: #1e70bf;
 }
 
 /* Linked Item Icons */
 .ui.list .list > a.item i.icon,
 .ui.list > a.item i.icon {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 /* Header Link */
 .ui.list .list > .item a.header,
 .ui.list > .item a.header {
   cursor: pointer;
-  color: #3d7aed !important;
+  color: #4183C4 !important;
 }
 .ui.list .list > .item a.header:hover,
 .ui.list > .item a.header:hover {
-  color: #5892ff !important;
+  color: #1e70bf !important;
 }
 
 /* Floated Content */
@@ -321,11 +321,11 @@ ol.ui.list ol li,
 .ui.list .list > .disabled.item,
 .ui.list > .disabled.item {
   pointer-events: none;
-  color: rgba(255, 255, 255, 0.2) !important;
+  color: rgba(40, 40, 40, 0.3) !important;
 }
 .ui.inverted.list .list > .disabled.item,
 .ui.inverted.list > .disabled.item {
-  color: rgba(0, 0, 0, 0.2) !important;
+  color: rgba(225, 225, 225, 0.3) !important;
 }
 
 /*-------------------
@@ -334,7 +334,7 @@ ol.ui.list ol li,
 
 .ui.list .list > a.item:hover .icon,
 .ui.list > a.item:hover .icon {
-  color: #DDDDDD;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 
@@ -349,34 +349,34 @@ ol.ui.list ol li,
 
 .ui.inverted.list .list > a.item > .icon,
 .ui.inverted.list > a.item > .icon {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.7);
 }
 .ui.inverted.list .list > .item .header,
 .ui.inverted.list > .item .header {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.list .list > .item .description,
 .ui.inverted.list > .item .description {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Item Link */
 .ui.inverted.list .list > a.item,
 .ui.inverted.list > a.item {
   cursor: pointer;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.list .list > a.item:hover,
 .ui.inverted.list > a.item:hover {
-  color: #5892ff;
+  color: #1e70bf;
 }
 
 /* Linking Content */
 .ui.inverted.list .item a:not(.ui) {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 .ui.inverted.list .item a:not(.ui):hover {
-  color: #5892ff !important;
+  color: #1e70bf !important;
 }
 
 /*-------------------
@@ -406,40 +406,40 @@ ol.ui.list ol li,
 .ui.link.list .item,
 .ui.link.list a.item,
 .ui.link.list .item a:not(.ui) {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.4);
   -webkit-transition: 0.1s color ease;
   transition: 0.1s color ease;
 }
 .ui.link.list.list a.item:hover,
 .ui.link.list.list .item a:not(.ui):hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 .ui.link.list.list a.item:active,
 .ui.link.list.list .item a:not(.ui):active {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.9);
 }
 .ui.link.list.list .active.item,
 .ui.link.list.list .active.item a:not(.ui) {
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(0, 0, 0, 0.95);
 }
 
 /* Inverted */
 .ui.inverted.link.list .item,
 .ui.inverted.link.list a.item,
 .ui.inverted.link.list .item a:not(.ui) {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 .ui.inverted.link.list.list a.item:hover,
 .ui.inverted.link.list.list .item a:not(.ui):hover {
-  color: #000000;
+  color: #ffffff;
 }
 .ui.inverted.link.list.list a.item:active,
 .ui.inverted.link.list.list .item a:not(.ui):active {
-  color: #000000;
+  color: #ffffff;
 }
 .ui.inverted.link.list.list a.active.item,
 .ui.inverted.link.list.list .active.item a:not(.ui) {
-  color: #000000;
+  color: #ffffff;
 }
 
 /*-------------------
@@ -452,7 +452,7 @@ ol.ui.list ol li,
   background: transparent;
   padding: 0.5em 0.5em;
   margin: 0em;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.4);
   border-radius: 0.5em;
   -webkit-transition: 0.1s color ease, 0.1s padding-left ease, 0.1s background-color ease;
   transition: 0.1s color ease, 0.1s padding-left ease, 0.1s background-color ease;
@@ -463,40 +463,40 @@ ol.ui.list ol li,
 }
 .ui.selection.list.list > .item:hover,
 .ui.selection.list > .item:hover {
-  background: rgba(255, 255, 255, 0.03);
-  color: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.03);
+  color: rgba(0, 0, 0, 0.8);
 }
 .ui.selection.list .list > .item:active,
 .ui.selection.list > .item:active {
-  background: rgba(255, 255, 255, 0.05);
-  color: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.9);
 }
 .ui.selection.list .list > .item.active,
 .ui.selection.list > .item.active {
-  background: rgba(255, 255, 255, 0.05);
-  color: rgba(255, 255, 255, 0.95);
+  background: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.95);
 }
 
 /* Inverted */
 .ui.inverted.selection.list > .item,
 .ui.inverted.selection.list > .item {
   background: transparent;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 .ui.inverted.selection.list > .item:hover,
 .ui.inverted.selection.list > .item:hover {
-  background: rgba(0, 0, 0, 0.02);
-  color: #000000;
+  background: rgba(255, 255, 255, 0.02);
+  color: #ffffff;
 }
 .ui.inverted.selection.list > .item:active,
 .ui.inverted.selection.list > .item:active {
-  background: rgba(0, 0, 0, 0.08);
-  color: #000000;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
 }
 .ui.inverted.selection.list > .item.active,
 .ui.inverted.selection.list > .item.active {
-  background: rgba(0, 0, 0, 0.08);
-  color: #000000;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
 }
 
 /* Celled / Divided Selection List */
@@ -568,7 +568,7 @@ ul.ui.list li:before,
 ul.ui.list li:before,
 .ui.bulleted.list .list > a.item:before,
 .ui.bulleted.list > a.item:before {
-  color: #DDDDDD;
+  color: rgba(0, 0, 0, 0.87);
 }
 ul.ui.list ul,
 .ui.bulleted.list .list {
@@ -590,7 +590,7 @@ ul.ui.horizontal.bulleted.list li:first-child,
 }
 ul.ui.horizontal.bulleted.list li::before,
 .ui.horizontal.bulleted.list > .item::before {
-  color: #DDDDDD;
+  color: rgba(0, 0, 0, 0.87);
 }
 ul.ui.horizontal.bulleted.list li:first-child::before,
 .ui.horizontal.bulleted.list > .item:first-child::before {
@@ -630,14 +630,14 @@ ol.ui.list li:before,
   counter-increment: ordered;
   content: counters(ordered, ".") " ";
   text-align: right;
-  color: #DDDDDD;
+  color: rgba(0, 0, 0, 0.87);
   vertical-align: middle;
   opacity: 0.8;
 }
 ol.ui.inverted.list li:before,
 .ui.ordered.inverted.list .list > .item:before,
 .ui.ordered.inverted.list > .item:before {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Value */
@@ -676,7 +676,7 @@ ol.ui.horizontal.list li:before,
 --------------------*/
 
 .ui.divided.list > .item {
-  border-top: 1px solid rgba(24, 26, 28, 0.45);
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.divided.list .list > .item {
   border-top: none;
@@ -740,7 +740,7 @@ ol.ui.horizontal.list li:before,
 }
 .ui.divided.horizontal.list > .item {
   border-top: none;
-  border-left: 1px solid rgba(24, 26, 28, 0.45);
+  border-left: 1px solid rgba(34, 36, 38, 0.15);
   margin: 0em;
   line-height: 0.6;
 }
@@ -752,7 +752,7 @@ ol.ui.horizontal.list li:before,
 .ui.divided.inverted.list > .item,
 .ui.divided.inverted.list > .list,
 .ui.divided.inverted.horizontal.list > .item {
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
 /*-------------------
@@ -761,12 +761,12 @@ ol.ui.horizontal.list li:before,
 
 .ui.celled.list > .item,
 .ui.celled.list > .list {
-  border-top: 1px solid rgba(24, 26, 28, 0.45);
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
 .ui.celled.list > .item:last-child {
-  border-bottom: 1px solid rgba(24, 26, 28, 0.45);
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
 }
 
 /* Padding on all elements */
@@ -822,7 +822,7 @@ ol.ui.horizontal.list li:before,
 .ui.horizontal.celled.list .list > .item,
 .ui.horizontal.celled.list > .item {
   border-top: none;
-  border-left: 1px solid rgba(24, 26, 28, 0.45);
+  border-left: 1px solid rgba(34, 36, 38, 0.15);
   margin: 0em;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -831,17 +831,17 @@ ol.ui.horizontal.list li:before,
 .ui.horizontal.celled.list .list > .item:last-child,
 .ui.horizontal.celled.list > .item:last-child {
   border-bottom: none;
-  border-right: 1px solid rgba(24, 26, 28, 0.45);
+  border-right: 1px solid rgba(34, 36, 38, 0.15);
 }
 
 /* Inverted */
 .ui.celled.inverted.list > .item,
 .ui.celled.inverted.list > .list {
-  border-color: 1px solid rgba(0, 0, 0, 0.1);
+  border-color: 1px solid rgba(255, 255, 255, 0.1);
 }
 .ui.celled.inverted.horizontal.list .list > .item,
 .ui.celled.inverted.horizontal.list > .item {
-  border-color: 1px solid rgba(0, 0, 0, 0.1);
+  border-color: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /*-------------------

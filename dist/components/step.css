@@ -30,7 +30,7 @@
           box-shadow: none;
   line-height: 1.14285714em;
   border-radius: 0.28571429rem;
-  border: 1px solid rgba(24, 26, 28, 0.45);
+  border: 1px solid rgba(34, 36, 38, 0.15);
 }
 
 /* First Steps */
@@ -71,13 +71,13 @@
           justify-content: center;
   margin: 0em 0em;
   padding: 1.14285714em 2em;
-  background: #2E3235;
-  color: #DDDDDD;
+  background: #FFFFFF;
+  color: rgba(0, 0, 0, 0.87);
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 0em;
   border: none;
-  border-right: 1px solid rgba(24, 26, 28, 0.45);
+  border-right: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, -webkit-box-shadow 0.1s ease;
   transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, -webkit-box-shadow 0.1s ease;
   transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
@@ -93,11 +93,11 @@
   top: 50%;
   right: 0%;
   border: medium none;
-  background-color: #2E3235;
+  background-color: #FFFFFF;
   width: 1.14285714em;
   height: 1.14285714em;
   border-style: solid;
-  border-color: rgba(24, 26, 28, 0.45);
+  border-color: rgba(34, 36, 38, 0.15);
   border-width: 0px 1px 1px 0px;
   -webkit-transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, -webkit-box-shadow 0.1s ease;
   transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, -webkit-box-shadow 0.1s ease;
@@ -147,7 +147,7 @@
 .ui.steps .step .description {
   font-weight: normal;
   font-size: 0.92857143em;
-  color: #DDDDDD;
+  color: rgba(0, 0, 0, 0.87);
 }
 .ui.steps .step > .description {
   width: 100%;
@@ -241,7 +241,7 @@
   border-radius: 0em;
   padding: 1.14285714em 2em;
   border-right: none;
-  border-bottom: 1px solid rgba(24, 26, 28, 0.45);
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.vertical.steps .step:first-child {
   padding: 1.14285714em 2em;
@@ -339,8 +339,8 @@
 .ui.steps .link.step:hover,
 .ui.steps a.step:hover::after,
 .ui.steps a.step:hover {
-  background: #34393D;
-  color: rgba(255, 255, 255, 0.8);
+  background: #F9FAFB;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 /* Link Down */
@@ -348,24 +348,24 @@
 .ui.steps .link.step:active,
 .ui.steps a.step:active::after,
 .ui.steps a.step:active {
-  background: #4B5257;
-  color: rgba(255, 255, 255, 0.9);
+  background: #F3F4F5;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 /* Active */
 .ui.steps .step.active {
   cursor: auto;
-  background: #4B5257;
+  background: #F3F4F5;
 }
 .ui.steps .step.active:after {
-  background: #4B5257;
+  background: #F3F4F5;
 }
 .ui.steps .step.active .title {
-  color: #3d7aed;
+  color: #4183C4;
 }
 .ui.ordered.steps .step.active:before,
 .ui.steps .active.step .icon {
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(0, 0, 0, 0.85);
 }
 
 /* Active Arrow */
@@ -389,7 +389,7 @@
 .ui.steps a.active.step:hover {
   cursor: pointer;
   background: #DCDDDE;
-  color: #DDDDDD;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /* Completed */
@@ -401,16 +401,16 @@
 /* Disabled */
 .ui.steps .disabled.step {
   cursor: auto;
-  background: #2E3235;
+  background: #FFFFFF;
   pointer-events: none;
 }
 .ui.steps .disabled.step,
 .ui.steps .disabled.step .title,
 .ui.steps .disabled.step .description {
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(40, 40, 40, 0.3);
 }
 .ui.steps .disabled.step:after {
-  background: #2E3235;
+  background: #FFFFFF;
 }
 
 
