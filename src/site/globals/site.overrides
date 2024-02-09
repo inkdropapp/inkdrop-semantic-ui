@@ -27,7 +27,7 @@ a, a:active, a:focus {
 }
 
 .ui.button.gradation {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'proxima-soft', sans-serif;
   font-size: 16px;
   color: white;
   background: #3d7aed;
@@ -43,3 +43,5 @@ a, a:active, a:focus {
     box-shadow: 0 10px 30px 2px rgba(159,191,255,.4);
   }
 }
+
+@import (css) url("https://use.typekit.net/atg0zvr.css");

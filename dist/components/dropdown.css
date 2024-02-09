@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Dropdown
+ * # Semantic UI - Dropdown
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -160,7 +160,7 @@
   padding: 0em 1.14285714rem;
   color: rgba(0, 0, 0, 0.85);
   font-size: 0.78571429em;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: uppercase;
 }
 .ui.dropdown .menu > .divider {
@@ -739,7 +739,7 @@ select.ui.dropdown {
   vertical-align: baseline;
 }
 .ui.inline.dropdown > .text {
-  font-weight: bold;
+  font-weight: 600;
 }
 .ui.inline.dropdown .menu {
   cursor: auto;
@@ -761,7 +761,7 @@ select.ui.dropdown {
 /* Menu Item Active */
 .ui.dropdown .menu .active.item {
   background: transparent;
-  font-weight: bold;
+  font-weight: 600;
   color: rgba(0, 0, 0, 0.95);
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1483,6 +1483,13 @@ select.ui.dropdown {
 }
 .ui.dropdown > .dropdown.icon:before {
   content: '\f0d7';
+}
+
+/* Inline dropdown menu */
+.ui.inline.dropdown .menu {
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
 }
 
 /* Sub Menu */

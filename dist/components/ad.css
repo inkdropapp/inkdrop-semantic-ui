@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Ad
+ * # Semantic UI - Ad
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -253,7 +253,7 @@
   content: 'Ad';
   color: #FFFFFF;
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 600;
 }
 .ui.mobile.test.ad:after {
   font-size: 0.85714286em;

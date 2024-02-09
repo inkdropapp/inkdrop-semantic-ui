@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Search
+ * # Semantic UI - Search
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -121,8 +121,8 @@
 }
 .ui.search > .results .result .title {
   margin: -0.14285714em 0em 0em;
-  font-family: 'M PLUS Rounded 1c', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-family: 'proxima-soft', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 600;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.85);
 }
@@ -144,9 +144,9 @@
   padding: 1em 1em;
 }
 .ui.search > .results > .message .header {
-  font-family: 'M PLUS Rounded 1c', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'proxima-soft', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 600;
   color: rgba(0, 0, 0, 0.87);
 }
 .ui.search > .results > .message .description {
@@ -162,7 +162,7 @@
   background: #F3F4F5;
   padding: 0.92857143em 1em;
   color: rgba(0, 0, 0, 0.87);
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -350,7 +350,7 @@
   font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
   padding: 0.4em 1em;
-  font-weight: bold;
+  font-weight: 600;
   color: rgba(0, 0, 0, 0.4);
   border-bottom: 1px solid rgba(34, 36, 38, 0.1);
 }

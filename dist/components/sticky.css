@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Sticky
+ * # Semantic UI - Sticky
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -58,7 +58,6 @@
 *******************************/
 
 .ui.native.sticky {
-  position: -webkit-sticky;
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;

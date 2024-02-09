@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Segment
+ * # Semantic UI - Segment
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -444,7 +444,7 @@
   -webkit-box-flex: 1;
           flex: 1 1 auto;
   -ms-flex: 1 1 0px;
-
+  
 /* Solves #2550 MS Flex */
   margin: 0em;
   min-width: 0px;
@@ -847,7 +847,7 @@
 }
 .ui.segments .segment,
 .ui.segment {
-  /* font-size: 1rem; */
+  font-size: 1rem;
 }
 .ui.large.segments .segment,
 .ui.large.segment {

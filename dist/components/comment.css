@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Comment
+ * # Semantic UI - Comment
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -106,7 +106,7 @@
 .ui.comments .comment .author {
   font-size: 1em;
   color: rgba(0, 0, 0, 0.87);
-  font-weight: bold;
+  font-weight: 600;
 }
 .ui.comments .comment a.author {
   cursor: pointer;

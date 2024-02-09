@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Progress Bar
+ * # Semantic UI - Progress Bar
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -64,7 +64,7 @@
   color: rgba(255, 255, 255, 0.7);
   text-shadow: none;
   margin-top: -0.5em;
-  font-weight: bold;
+  font-weight: 600;
   text-align: left;
 }
 
@@ -78,7 +78,7 @@
   left: 0%;
   bottom: auto;
   color: rgba(0, 0, 0, 0.87);
-  font-weight: bold;
+  font-weight: 600;
   text-shadow: none;
   margin-top: 0.2em;
   text-align: center;

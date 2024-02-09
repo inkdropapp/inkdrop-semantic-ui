@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Item
+ * # Semantic UI - Item
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -169,14 +169,14 @@
 .ui.card > .content > .header {
   display: block;
   margin: '';
-  font-family: 'M PLUS Rounded 1c', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'proxima-soft', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   color: rgba(0, 0, 0, 0.85);
 }
 
 /* Default Header Size */
 .ui.cards > .card > .content > .header:not(.ui),
 .ui.card > .content > .header:not(.ui) {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.28571429em;
   margin-top: -0.21425em;
   line-height: 1.28571429em;

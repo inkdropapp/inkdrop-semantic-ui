@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Statistic
+ * # Semantic UI - Statistic
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -114,9 +114,9 @@
 
 .ui.statistics .statistic > .label,
 .ui.statistic > .label {
-  font-family: 'M PLUS Rounded 1c', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'proxima-soft', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 600;
   color: rgba(0, 0, 0, 0.87);
   text-transform: uppercase;
   text-align: center;
@@ -159,7 +159,7 @@
 .ui.statistic > .text.value {
   line-height: 1em;
   min-height: 2em;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
 }
 .ui.statistics .statistic > .text.value + .label,

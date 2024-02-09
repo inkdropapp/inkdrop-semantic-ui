@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Feed
+ * # Semantic UI - Feed
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -128,7 +128,7 @@
 .ui.feed > .event > .content .summary {
   margin: 0em;
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 600;
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -148,7 +148,7 @@
 
 .ui.feed > .event > .content .user {
   display: inline-block;
-  font-weight: bold;
+  font-weight: 600;
   margin-right: 0em;
   vertical-align: baseline;
 }

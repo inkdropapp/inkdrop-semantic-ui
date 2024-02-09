@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Table
+ * # Semantic UI - Table
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -61,7 +61,7 @@
   padding: 0.92857143em 0.78571429em;
   vertical-align: inherit;
   font-style: none;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: none;
   border-bottom: 1px solid rgba(34, 36, 38, 0.1);
   border-left: none;
@@ -184,7 +184,7 @@
   }
   .ui.table:not(.unstackable) th:first-child,
   .ui.table:not(.unstackable) td:first-child {
-    font-weight: bold;
+    font-weight: 600;
   }
   
 /* Definition Table */
@@ -274,7 +274,7 @@
 .ui.definition.table tr td:first-child:not(.ignored),
 .ui.definition.table tr td.definition {
   background: rgba(0, 0, 0, 0.03);
-  font-weight: bold;
+  font-weight: 600;
   color: rgba(0, 0, 0, 0.95);
   text-transform: '';
   -webkit-box-shadow: '';
