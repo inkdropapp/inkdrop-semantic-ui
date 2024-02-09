@@ -5,4 +5,4 @@
 @fontName            : 'Roboto';
 @googleFontSizes   : '400,300,100,500,700';
 @pageBackground      : #ecf2fd;
-@headerFont        : 'M PLUS Rounded 1c', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@headerFont        : 'proxima-soft', 'Helvetica Neue', Arial, Helvetica, sans-serif;
