@@ -11,7 +11,7 @@
 @labelDistance: 1.85714em; /* 26px @ 14/em */
 
 /* Checkbox */
-@checkboxBackground: rgba(0, 0, 0, 0.2);
+@checkboxBackground: @white;
 @checkboxBorder: 1px solid @solidBorderColor;
 @checkboxBorderRadius: @3px;
 @checkboxTransition:
@@ -55,7 +55,7 @@
 
 /* Active */
 @labelActiveColor: @selectedTextColor;
-@checkboxActiveBackground: rgba(0, 0, 0, 0.2);
+@checkboxActiveBackground: @white;
 @checkboxActiveBorderColor: @selectedBorderColor;
 @checkboxActiveCheckColor: @selectedTextColor;
 @checkboxActiveCheckOpacity: 1;

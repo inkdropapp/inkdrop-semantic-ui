@@ -41,7 +41,7 @@
 @contentFontSize: 1em;
 @contentPadding: 1.5rem;
 @contentLineHeight: 1.4;
-@contentBackground: @white;
+@contentBackground: #FFFFFF;
 
 /* Image / Description */
 @imageWidth: '';
@@ -108,8 +108,8 @@
 --------------------*/
 
 /* Basic */
-@basicModalHeaderColor: @textColor;
-@basicModalColor: @textColor;
+@basicModalHeaderColor: @white;
+@basicModalColor: @white;
 @basicModalCloseTop: 1rem;
 @basicModalCloseRight: 1.5rem;
 @basicInnerCloseColor: @white;

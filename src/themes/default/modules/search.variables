@@ -25,7 +25,7 @@
 
 /* Result Box */
 @resultsWidth: 18em;
-@resultsBackground: @white;
+@resultsBackground: #FFFFFF;
 @resultsDistance: 0.5em;
 @resultsBorderRadius: @defaultBorderRadius;
 @resultsBorder: 1px solid @solidBorderColor;
