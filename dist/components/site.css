@@ -227,27 +227,31 @@ a:active,
 a:focus {
   outline: none;
 }
-.ui.button.gradation {
+.ui.button.gradation,
+.ui.disabled.button.gradation {
   font-family: 'proxima-soft', sans-serif;
   font-size: 16px;
   color: white;
   background: #3d7aed;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, #66b6ea), to(#8743ff));
-  background: -webkit-linear-gradient(left, #66b6ea 0, #8743ff);
-  background: linear-gradient(90deg, #66b6ea 0, #8743ff);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #66b6ea), to(#8743ff)) !important;
+  background-image: -webkit-linear-gradient(left, #66b6ea 0, #8743ff) !important;
+  background-image: linear-gradient(90deg, #66b6ea 0, #8743ff) !important;
   border-radius: 1.3em;
   -webkit-box-shadow: 0 10px 30px 2px rgba(159, 191, 255, 0.4);
           box-shadow: 0 10px 30px 2px rgba(159, 191, 255, 0.4);
   mix-blend-mode: multiply;
 }
 .ui.button.gradation:hover,
+.ui.disabled.button.gradation:hover,
 .ui.button.gradation:active,
-.ui.button.gradation:focus {
+.ui.disabled.button.gradation:active,
+.ui.button.gradation:focus,
+.ui.disabled.button.gradation:focus {
   color: white;
   background: #4f8eff;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, #93cbf0), to(#a876ff));
-  background: -webkit-linear-gradient(left, #93cbf0 0, #a876ff);
-  background: linear-gradient(90deg, #93cbf0 0, #a876ff);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #93cbf0), to(#a876ff));
+  background-image: -webkit-linear-gradient(left, #93cbf0 0, #a876ff);
+  background-image: linear-gradient(90deg, #93cbf0 0, #a876ff);
   -webkit-box-shadow: 0 10px 30px 2px rgba(159, 191, 255, 0.4);
           box-shadow: 0 10px 30px 2px rgba(159, 191, 255, 0.4);
 }
